@@ -1,0 +1,83 @@
+<style>
+	.injected-text
+	{
+		margin-bottom: -25px ;
+		text-align: center;
+	}
+
+	.box
+	{
+		border-style: solid ;
+		border-color: black ;
+		border-width: 5px ;
+		text-align: center ;
+	}
+
+	.yellow-box
+	{
+		background-color: yellow ;
+		padding: 10px ;
+	}
+
+	.red-box
+	{
+		background-color: crimson ;
+		color: #fff ;
+		padding: 10px ;
+	}
+
+	.blue-box
+	{
+		background-color: blue ;
+		color: #fff ;
+		padding: 10px ;
+	}
+
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bhai</title>
+	
+</head>
+<body>
+	<h2 id ="cat-photo-element">CatPhotoApp</h2>
+	<main>
+		<p class="red-text" >Click here to view more <a href="#">cat photo</a>.</p>
+
+		<a href="#"><img class="smaller-img thick-green-border" src="https://bit/ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+		<div class="silver-background">
+			<p>Thing cat love:</p>
+			<ul>
+				<li>cat nip</li>
+				<li>laser pointers</li>
+				<li>lasangna</li>
+			</ul>
+			<P>Top 3 Things catv hate</P>
+			<ol>
+				<li>flea treatment</li>
+				<li>thunder</li>
+				<li>other cats</li>
+			</ol>
+		</div>
+
+		<form action="/submit-cat photo">
+			<label><input type="checkbox" name="personality" checked>Loving</label>
+			<label><input type="checkbox" name="personality">Lazy</label>
+			<label><input type="checkbox" name="personality">Energetic</label><br>
+			<input type="text" placeholder="cat photo URL" required>
+			<button type="submit">Submit</button>			
+		</form>
+	<p>Next</p><br>
+	<h5 class="injected-text">margin</h5>
+	<div class="box yellow-box">
+		<h5 class="box red-box">padding</h5>
+		<h5 class="box blue-box">padding</h5>		
+	</div>
+
+	</main>
+
+
+</body>
+</html>
